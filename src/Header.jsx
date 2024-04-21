@@ -25,12 +25,12 @@ return (
             <Nav className='nav-headings'><Link to={'/Header'} style={{textDecoration:'none' ,color:'blueviolet'}}>Home</Link></Nav>
             <Nav className='nav-headings'><Link to={'/Header'} style={{textDecoration:'none' ,color:'blueviolet'}}>Contact</Link></Nav>        
             <NavDropdown title="Club-Names" className="nav-headings" data-bs-theme="light">
-            <NavDropdown.Item><Link to={'/Club1'} style={{textDecoration:"none",color:'black'}}>Club-1</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to={'/Club2'} style={{textDecoration:"none",color:'black'}}>Club-2</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to={'/Club3'} style={{textDecoration:"none",color:'black'}}>Club-3</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to={'/Club4'} style={{textDecoration:"none",color:'black'}}>Club-4</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to={'/Club5'} style={{textDecoration:"none",color:'black'}}>Club-5</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to={'/Club6'} style={{textDecoration:"none",color:'black'}}>Club-6</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to={'/React-app/Club1'} style={{textDecoration:"none",color:'black'}}>Club-1</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to={'/React-app/Club2'} style={{textDecoration:"none",color:'black'}}>Club-2</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to={'/React-app/Club3'} style={{textDecoration:"none",color:'black'}}>Club-3</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to={'/React-app/Club4'} style={{textDecoration:"none",color:'black'}}>Club-4</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to={'/React-app/Club5'} style={{textDecoration:"none",color:'black'}}>Club-5</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to={'/React-app/Club6'} style={{textDecoration:"none",color:'black'}}>Club-6</Link></NavDropdown.Item>
             </NavDropdown>
         </Nav>
         </Navbar.Collapse>
