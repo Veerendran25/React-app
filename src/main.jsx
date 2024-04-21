@@ -16,41 +16,41 @@ import Club5 from './Club-5.jsx'
 import Club6 from './Club-6.jsx'
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/React-app/",
     element:<App/> 
   },
   {
-    path: "Header",
+    path: "/React-app/Header",
     element:<Header/> 
   }
   ,
   {
-    path:"Club1",
+    path:"/React-app/Club1",
     element:<Club1/>
   }
   ,
   {
-    path:"Club2",
+    path:"/React-app/Club2",
     element:<Club2/>
   }
   ,
   {
-    path:"Club3",
+    path:"/React-app/Club3",
     element:<Club3/>
   }
   ,
   {
-    path:"Club4",
+    path:"/React-app/Club4",
     element:<Club4/>
   }
   ,
   {
-    path:"Club5",
+    path:"/React-app/Club5",
     element:<Club5/>
   }
   ,
   {
-    path:"Club6",
+    path:"/React-app/Club6",
     element:<Club6/>
   }
 ]);
